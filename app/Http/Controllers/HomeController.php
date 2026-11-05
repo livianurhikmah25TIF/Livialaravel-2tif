@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -11,7 +14,17 @@ class HomeController extends Controller
      */
     public function index()
     {
+<<<<<<< HEAD
         //
+=======
+        /* atau Cara 2 */
+        $data = [
+            'username'        => 'Laravel 2TIC',
+            'last_login'      => date('Y-m-d H:i:s'),
+            'list_pendidikan' => ['SD', 'SMP', 'SMA', 'S1', 'S2', 'S3'],
+        ];
+        return view('home', $data);
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
     }
 
     /**

@@ -15,7 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string('queue')->index();
             $table->longText('payload');
+<<<<<<< HEAD
             $table->unsignedTinyInteger('attempts');
+=======
+            $table->unsignedSmallInteger('attempts');
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
             $table->unsignedInteger('reserved_at')->nullable();
             $table->unsignedInteger('available_at');
             $table->unsignedInteger('created_at');
@@ -37,11 +41,21 @@ return new class extends Migration
         Schema::create('failed_jobs', function (Blueprint $table) {
             $table->id();
             $table->string('uuid')->unique();
+<<<<<<< HEAD
             $table->text('connection');
             $table->text('queue');
             $table->longText('payload');
             $table->longText('exception');
             $table->timestamp('failed_at')->useCurrent();
+=======
+            $table->string('connection');
+            $table->string('queue');
+            $table->longText('payload');
+            $table->longText('exception');
+            $table->timestamp('failed_at')->useCurrent();
+
+            $table->index(['connection', 'queue', 'failed_at']);
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
         });
     }
 
