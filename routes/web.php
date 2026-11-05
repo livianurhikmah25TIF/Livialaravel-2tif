@@ -3,12 +3,24 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\PelangganController;
-
-Route::get('/posts/create', [PostController::class, 'create'])->name('posts.create');
-Route::post('/posts', [PostController::class, 'store'])->name('posts.store');
-Route::resource('pelanggan', PelangganController::class);
-
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\QuestionController;
+use App\Http\Controllers\DashboardController;
 
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/posts/create', [PostController::class, 'create'])
+    ->name('posts.create');
+
+Route::post('/posts', [PostController::class, 'store'])
+    ->name('posts.store');
+
+Route::resource('pelanggan', PelangganController::class);
+
+Route::post('question/store', [QuestionController::class, 'store'])
+    ->name('question.store');
+
+Route::get('/dashboard', [DashboardController::class, 'index'])
+    ->name('dashboard');

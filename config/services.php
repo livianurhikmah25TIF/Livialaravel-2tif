@@ -8,7 +8,11 @@ return [
     |--------------------------------------------------------------------------
     |
     | This file is for storing the credentials for third party services such
+<<<<<<< HEAD
     | as Mailgun, Postmark, AWS and more. This file provides the de facto
+=======
+    | as Resend, Postmark, AWS, and more. This file provides the de facto
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
     | location for this type of information, allowing packages to have
     | a conventional file to locate the various service credentials.
     |
