@@ -10,12 +10,24 @@ class PelangganController extends Controller
     /**
      * Menampilkan daftar seluruh pelanggan.
      */
-    public function index()
-    {
-        $pelanggan = Pelanggan::all();
 
-        return view('admin.pelanggan.index', compact('pelanggan'));
+    public function index(Request $request)
+    {
+        // Kolom untuk filter
+        $filterableColumns = ['gender'];
+
+        // Kolom yang dapat dicari
+        $searchableColumns = ['first_name'];
+
+        // Menampilkan data pelanggan
+        $dataPelanggan = Pelanggan::filter($request, $filterableColumns)
+            ->search($request, $searchableColumns)
+            ->paginate(10)
+            ->withQueryString();
+
+        return view('admin.pelanggan.index', compact('dataPelanggan'));
     }
+
 
     /**
      * Menampilkan form untuk membuat pelanggan baru.
