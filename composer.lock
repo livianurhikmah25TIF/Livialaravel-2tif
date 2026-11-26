@@ -4,6 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
+    "content-hash": "3a921214ce19d0dd34a40f7bd7d934d6",
+    "packages": [
+        {
+            "name": "brick/math",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brick/math.git",
+                "reference": "2effe05d2177c451b86c6a073196a4034c02f211"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/math/zipball/2effe05d2177c451b86c6a073196a4034c02f211",
+                "reference": "2effe05d2177c451b86c6a073196a4034c02f211",
+=======
     "content-hash": "cda2add6397422fb1a2eb5b9207f1575",
     "packages": [
         {
@@ -18,13 +34,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/brick/math/zipball/a89bc96a7cf3d7b59e725afe57ccb95eb03cf6ce",
                 "reference": "a89bc96a7cf3d7b59e725afe57ccb95eb03cf6ce",
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
                 "shasum": ""
             },
             "require": {
                 "php": "^8.2"
             },
             "require-dev": {
+<<<<<<< HEAD
+                "phpstan/phpstan": "2.2.13",
+                "phpstan/phpstan-phpunit": "2.0.18",
+=======
                 "phpstan/phpstan": "2.1.22",
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
                 "phpunit/phpunit": "^11.5"
             },
             "type": "library",
@@ -55,7 +77,11 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
+<<<<<<< HEAD
+                "source": "https://github.com/brick/math/tree/1.0.0"
+=======
                 "source": "https://github.com/brick/math/tree/0.19.1"
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
             },
             "funding": [
                 {
@@ -63,7 +89,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
+            "time": "2026-09-12T10:28:18+00:00"
+=======
             "time": "2026-08-08T23:03:16+00:00"
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -1059,6 +1089,22 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
+            "version": "v13.33.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "91188a17ceaa3dbace6e8a5f7abd0d042e466359"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/91188a17ceaa3dbace6e8a5f7abd0d042e466359",
+                "reference": "91188a17ceaa3dbace6e8a5f7abd0d042e466359",
+                "shasum": ""
+            },
+            "require": {
+                "brick/math": "^0.14.2 || ^0.15 || ^0.16 || ^0.17 || ^0.18 || ^0.19 || ^0.20 || ^1.0",
+=======
             "version": "v13.32.0",
             "source": {
                 "type": "git",
@@ -1073,6 +1119,7 @@
             },
             "require": {
                 "brick/math": "^0.14.2 || ^0.15 || ^0.16 || ^0.17 || ^0.18 || ^0.19",
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
                 "composer-runtime-api": "^2.2",
                 "doctrine/inflector": "^2.0.5",
                 "dragonmantank/cron-expression": "^3.4",
@@ -1286,7 +1333,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
+            "time": "2026-09-22T14:12:33+00:00"
+=======
             "time": "2026-09-15T14:55:30+00:00"
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
         },
         {
             "name": "laravel/prompts",
@@ -1349,6 +1400,18 @@
         },
         {
             "name": "laravel/serializable-closure",
+<<<<<<< HEAD
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/serializable-closure.git",
+                "reference": "2d5869a838bbcf37e0d8b0568fc41914e81374b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/2d5869a838bbcf37e0d8b0568fc41914e81374b5",
+                "reference": "2d5869a838bbcf37e0d8b0568fc41914e81374b5",
+=======
             "version": "v2.0.16",
             "source": {
                 "type": "git",
@@ -1359,6 +1422,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/7cfc24e4fa2cca045fb8dd2a797a2b2b13b655ed",
                 "reference": "7cfc24e4fa2cca045fb8dd2a797a2b2b13b655ed",
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
                 "shasum": ""
             },
             "require": {
@@ -1406,7 +1470,11 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
+<<<<<<< HEAD
+            "time": "2026-09-22T14:32:34+00:00"
+=======
             "time": "2026-08-18T20:28:54+00:00"
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
         },
         {
             "name": "laravel/tinker",
@@ -1479,6 +1547,18 @@
         },
         {
             "name": "league/commonmark",
+<<<<<<< HEAD
+            "version": "2.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "6efbd9c472b91db0a3350fcd601c8332c2382e1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/6efbd9c472b91db0a3350fcd601c8332c2382e1f",
+                "reference": "6efbd9c472b91db0a3350fcd601c8332c2382e1f",
+=======
             "version": "2.10.1",
             "source": {
                 "type": "git",
@@ -1489,6 +1569,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/9d489ab67a02960fd8ffe624d93f751daf95439e",
                 "reference": "9d489ab67a02960fd8ffe624d93f751daf95439e",
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
                 "shasum": ""
             },
             "require": {
@@ -1582,7 +1663,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
+            "time": "2026-09-21T13:07:34+00:00"
+=======
             "time": "2026-09-07T13:44:26+00:00"
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
         },
         {
             "name": "league/config",
@@ -6233,6 +6318,8 @@
             "time": "2026-03-17T11:56:53+00:00"
         },
         {
+<<<<<<< HEAD
+=======
             "name": "laravel/agent-detector",
             "version": "v2.0.2",
             "source": {
@@ -6295,6 +6382,7 @@
             "time": "2026-04-29T18:32:34+00:00"
         },
         {
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
             "name": "laravel/pail",
             "version": "v1.2.7",
             "source": {
@@ -6375,6 +6463,8 @@
             "time": "2026-05-20T22:24:57+00:00"
         },
         {
+<<<<<<< HEAD
+=======
             "name": "laravel/pao",
             "version": "v1.1.5",
             "source": {
@@ -6460,6 +6550,7 @@
             "time": "2026-09-07T14:48:06+00:00"
         },
         {
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
             "name": "laravel/pint",
             "version": "v1.32.1",
             "source": {
@@ -8345,7 +8436,11 @@
         }
     ],
     "aliases": [],
+<<<<<<< HEAD
+    "minimum-stability": "dev",
+=======
     "minimum-stability": "stable",
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
     "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -8353,5 +8448,9 @@
         "php": "^8.3"
     },
     "platform-dev": {},
+<<<<<<< HEAD
+    "plugin-api-version": "2.9.0"
+=======
     "plugin-api-version": "2.6.0"
+>>>>>>> 4ffaf2d4b42f1dc0e2901ab7bc5e4d029700fb1a
 }
